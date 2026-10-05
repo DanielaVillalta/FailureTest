@@ -1,6 +1,7 @@
 import express from "express";
 import morgan from "morgan";
 import { errorHandler, notFound } from "./middlewares/errorMiddleware.js";
+import cors from "cors";
 
 //rutas privadas
 import barcodeRoutes from "./routes/barcodeRoutes.js";
